@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="WpfApp_10_06_2022.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp_10_06_2022"
+             mc:Ignorable="d" Height="193" Width="205" Loaded="UserControl_Loaded">
+    <Grid Margin="0,0,531,243">
+        <Border CornerRadius="50"
+        Margin="56,46,-146,-134"
+        Padding="4"
+        Background="Aquamarine"
+        BorderBrush="Black"
+        BorderThickness="1" RenderTransformOrigin="0.593,0.464">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"
+              Text="Test"  Margin="0,14,0,17" Width="42" />
+        </Border>
+        <Grid>
+            <Rectangle  Width="200" Height="200"/>
+            <TextBlock Text="Hi there" Margin="5"/>
+        </Grid>
+        <Rectangle  Stroke="Green" Margin="9,9,-189,-172"/>
+        <TextBox x:Name="Log" Background="Transparent"  TextWrapping="Wrap" Text="TextBox" Margin="9,139,-167,-172"/>
+
+
+
+
+    </Grid>
+
+
+
+</UserControl>
